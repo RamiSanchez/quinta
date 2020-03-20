@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Quinta Este</title>
+    <link rel="icon" type="image/jpg" sizes="40x40" href="images/Hotel/Logotipo1.jpg">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="arriba"></div>
+    <nav>
+        <!-- LOGO -->
+        <a href="#arriba">
+            <h1>
+                <img src="images/Hotel/Logotipo1.jpg" width="150" alt="Hotel Quinta Este">
+            </h1>
+        </a>
+        <!-- Menu Principal y de navegacion -->
+        <ul>
+            <li><a href="#habitaciones">Habitaciones</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#restaurante">Restaurante</a></li>
+            <li><a href="#spa">Spa</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#ubicacion">Ubicacion</a></li>
+            <li><a href="#reserva">Reservá por whatsapp</a></li>
+        </ul>
+        <form action="buscarInfo.php" method="post">
+            <input type="text" name="Buscar" placeholder="Buscar ">
+        </form>
+
+
+    </nav>
+    <header>
+
+        <form action="procesarInfo.php" method="post">
+            <!-- calendario de Ingreso -->
+            <label for="">Ingreso</label>
+            <input type="date" name="ingreso">
+            <!-- calendario de salida -->
+            <label for="">Salida</label>
+            <input type="date" name="salida">
+            <!-- usuario y contraseña -->
+            <input type="text" name="Usuario" placeholder="Usuario" required>
+            <input type="text" name="Contraseña" placeholder="Contraseña" required>
+            <input type="submit" value="Ingresar">
+        </form>
+
+    </header>
+    <main>
+        <!-- habitaciones -->
+        <h2>HABITACIONES</h2>
+        <!-- habitacion 1   -->
+        <section id="habitaciones">
+            <section id="habitacion-1">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1.jpg"
+                    width="400" alt="Standard Doble Matrimonial">
+                <h3>Standard Doble Matrimonial</h3>
+
+
+                <a href="#miModal">INFO</a>
+            </section>
+            <!-- modal habitacion 1 -->
+            <section id="miModal" class="modal">
+                <div class="modal-contenido">
+                    <a href="#">X</a>
+                    <div>
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1.jpg"
+                            width="150" alt="">
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1, foto 2.jpg"
+                            width="150" alt="">
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1, foto 3.jpg"
+                            width="150" alt="">
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Frigobar habitacion 1.jpg"
+                            width="150" alt="">
+                    </div>
+
+                    <div>
+                        <h2>Standard Doble Matrimonial</h2>
+                        <p>Confortables habitaciones que pueden acomodar una cama de tamaño Queen permitiendo hospedar a
+                            una o dos personas y un menor hasta dos años compartiendo cama o en cuna.</p>
+                        <h3>Servicios:</h3>
+                        <ul>
+                            <li>Wifi</li>
+                            <li>Minibar</li>
+                            <li>Tv por cable </li>
+                            <li>Telefono</li>
+                            <li>Ropa de cama y toallas</li>
+                            <li>Secador de cabello</li>
+                        </ul>
+                        <input type="submit" value="RESERVAR">
+                    </div>
+                </div>
+            </section>
+
+            <!-- habitacion 2 
+            <section id="habitacion-2">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Single Queen/Habitacion 2.jpg" width="400"
+                    alt="">
+                <h3>Standard Simple Queen</h3>
+                <a href="">INFO</a>
+            </section>
+            -->
+            <!-- HABITACION 3 
+            <section id="habitacion-3">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Twin/Habitacion 3-1.jpg" width="400"
+                    alt="Standard Doble Twin">
+                <h3>Standard Doble Twin</h3>
+                <a href="">Info</a>
+            </section>
+        -->
+            <!-- HABITACION 4
+            <section id="habitacion-4">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Superior Doble Matrimonial/Habitacion 4-1.jpg"
+                    width="400" alt="Superior Doble Matrimonial">
+                <h3>Superior Doble Matrimonial</h3>
+                <a href="">Info</a>
+            </section>
+             -->
+            <!--  HABITACION 5
+            <section id="habitacion-5">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion ejecutiva doble/Habitacion 5-1.jpg" width="400"
+                    alt="Ejecutiva Doble ">
+                <h3>Ejecutiva Doble</h3>
+                <a href="">Info</a>
+            </section>
+        </section>
+        -->
+            <hr>
+            <!-- servicios -->
+            <section id="servicios">
+                <h2>SERVICIOS</h2>
+                <img src="images/Hotel/SlideSeccionServicios/1.jpg" alt="" width="1400">
+            </section>
+            <hr>
+            <section id="restaurante">
+                <h2>Disfruta de nuestro exquisito menu</h2>
+                <p>Nuestro Restaurant ubicado en la planta baja del Hotel, ofrece exquisitas propuestas de gastronomía
+                    típica mendocina con algunas opciones de gastronomía italiana y mediterránea, con menús dinámicos,
+                    en un ambiente amplio y relajado, donde la decoración y la iluminación armoniosa estimulan los
+                    sentidos.
+                </p>
+                <p>En la barra, podrá disfrutar de una buena propuesta de tragos, variedad de snacks, cocktails y
+                    smoothies, ideales para un after office o para descansar luego de un paseo por la Ciudad.</p>
+                <p>Horario Abierto todos los días desde las 1000hs. hasta las 2330hs.</p>
+                <p>Desayuno:</p>
+                <p>Nuestro desayuno de estilo buffet americano lo ofrecemos todos los días en un espacio exclusivo,
+                    luminoso, cómodo y acogedor.</p>
+                <p>Se sirve completo en el 9no piso del Hotel de 7:00hs a 10:00hs.</p>
+                <img src="images/Hotel/Restaurante/restaurant.jpg" alt="Imagen de portada de restaurante" width="500">
+
+            </section>
+            <hr>
+            <!-- spa -->
+            <h2>SPA</h2>
+            <section id="spa">
+                <article id="MasajeDescontracturante"
+                    <img src="images/Hotel/Spa/imagen 1.jpg" alt="Masaje descontracturante" width="400">
+                    <h2>Masaje descontracturante</h2>
+                    <p>Es un método de valoración y tratamiento manual que se realiza para relajar la musculatura,
+                        disolver las contracturas que se producen en el cuerpo, mejorar la circulación sanguínea y
+                        conseguir un alivio del estrés. </p>
+                    <p> La terapia consiste en masajes en todo el cuerpo utilizando cremas aromatizadas o neutras, según
+                        lo requiera el paciente.</p>
+                </article>
+    
+            
+                <article id="masajeRelajante">
+                    <img src="images/Hotel/Spa/imagen 2.jpg" alt="Masaje relajante" width="400">
+                    <h2>Masaje relajante</h2>
+                    <p>El masaje sedativo está indicado principalmente, a una persona sana, que no sufre una lesión
+                        concreta o fatiga muscular.</p>
+                    <p>Su propósito es aliviar consecuencias psicofísicas, las físicas y las emocionales que genera el
+                        estrés. </p>
+                    <p>Este tratamiento consiste en movimientos suaves y armónicos, evitando los cambios bruscos de
+                        ritmo y la pérdida de contacto proporcionando una relajación.</p>
+                </article>
+            
+            
+                <article id="masajeReductor">
+                    <img src="images/Hotel/Spa/imagen 3.jpg" alt="Masaje Reductor" width="400">
+                    <h2>Masaje Reductor</h2>
+                    <p>Es una modalidad de masaje que se realiza con una presión fuerte y una velocidad más rápida a la
+                        usual.</p>
+                    <p>Ayuda a eliminar el acumulo de grasa localizada y a la vez, estilizar el contorno de la figura
+                        logrando una silueta más estética.</p>
+                    <p>En este masaje se trabajan las zonas con mayor cantidad de grasa del cuerpo, provocando calor con
+                        especiales movimientos que ayudan a disolver el tejido adiposo.</p>
+                </article>
+            
+            
+                <article id="masajeFacial">
+                    <img src="images/Hotel/Spa/imagen 4.jpg" alt="Limpieza y masaje facial" width="400">
+                    <h2>Limpieza y masaje facial</h2>
+                    <p>Es un tratamieno indispensable para mantener la higiene de la piel del rostro.</p>
+                    <p>Este tratamiento consiste en la limpieza del cutis que incluye una primera limpieza para retirar
+                        la suciedad más superficial y una exfoliación para desincrustar las impurezas más profundas.</p>
+                    <p>Luego la colocación de una mascarilla para cerras poros, acompañando de una loción tónica y por
+                        último una crema hidratante conjunto a un masaje suave para desinflamar la zona.</p>
+                </article>
+            </section>
+            <hr>
+            <!-- slider con galeria de fotos -->
+            <aside id="galeria">
+                <!-- slider // modificar tamaño -->
+                <div>
+                    <img src="images/Hotel/Slide seccion galeria/1.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/2.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/3.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/4.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/5.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/6.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/7.jpg" alt="" width="150">
+                    <img src="images/Hotel/Slide seccion galeria/8.jpg" alt="" width="150">
+                </div>
+            </aside>
+            <hr>
+            <!-- contacto y mapa -->
+            <aside id="contacto">
+                <div id="ubicacion">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.2248540872106!2d-68.84018988473834!3d-32.8922227764656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09177a2308d3%3A0xaf94b708252aeca4!2sSheraton%20Mendoza%20Hotel!5e0!3m2!1ses-419!2sar!4v1584578209162!5m2!1ses-419!2sar"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+
+
+                <h2>Contacto</h2>
+                <div>
+                    <form action="comentario-gente.php" method="POST">
+                        <input type="text" placeholder="Nombre y apellido">
+                        <input type="text" placeholder="Telefono">
+                        <input type="text" placeholder="Correo Electronico">
+                        <textarea name="comentario" cols="30" rows="8" placeholder="Ingrese su mensaje">
+                      
+                        </textarea>
+                        <input type="submit" value="Enviar">
+
+                    </form>
+                </div>
+            </aside>
+    </main>
+
+
+    <footer>
+        <div>
+            <a href="#">
+                <h1>
+                    <img src="images/Hotel/Logotipo1.jpg" width="150" alt="Hotel Quinta Este">
+                </h1>
+            </a>
+            <img src="images/Hotel/Iconos/american.ico" alt="american" width="50">
+            <img src="images/Hotel/Iconos/visa.ico" alt="Visa" width="50">
+            <img src="images/Hotel/Iconos/master.ico" alt="Visa" width="50">
+            <img src="images/Hotel/Iconos/facebook.png" alt="">
+            <img src="images/Hotel/Iconos/instagram.png" alt="">
+            <img src="images/Hotel/Iconos/twitter.png" alt="">
+            <img src="images/Hotel/Iconos/whatsapp.png" alt="">
+
+        </div>
+    </footer>
+</body>
+
+</html>

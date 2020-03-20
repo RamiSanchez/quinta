@@ -1,0 +1,10 @@
+--Se abre una ventana modal que contiene esta galeria de imagenes y este texto:--
+Espaciosas habitaciones que pueden acomodar una cama de tamaño Queen y un cömodo sofá cama, permitiendo hospedar hasta dos adultos y un menor de 2 años. 
+Servicios: 
+Wifi 
+Minibar
+Tv por cable
+Teléfono 
+Ropa de cama y toallas 
+Secador de cabello 
+ --- dentro de la ventana modal un icono de "reservar" 

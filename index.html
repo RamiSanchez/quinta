@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Quinta Este</title>
+    <link rel="icon" type="image/jpg" sizes="40x40" href="images/Hotel/Logotipo1.jpg">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="arriba"></div>
+    <nav>
+        <!-- LOGO -->
+        <a href="#arriba">
+            <h1>
+                <img src="images/Hotel/Logotipo1.jpg" width="150" alt="Hotel Quinta Este">
+            </h1>
+        </a>
+        <!-- Menu Principal y de navegacion -->
+        <ul>
+            <li><a href="#habitaciones">Habitaciones</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#restaurante">Restaurante</a></li>
+            <li><a href="#spa">Spa</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#ubicacion">Ubicacin</a></li>
+            <li><a href="#reserva">Reservá por whatsapp</a></li>
+        </ul>
+        <form action="buscarInfo.php" method="post">
+            <input type="text" name="Buscar" placeholder="Buscar ">
+        </form>
+
+
+    </nav>
+    <header>
+
+        <form action="procesarInfo.php" method="post">
+            <!-- calendario de Ingreso -->
+            <label for="">Ingreso</label>
+            <input type="date" name="ingreso">
+            <!-- calendario de salida -->
+            <label for="">Salida</label>
+            <input type="date" name="salida">
+            <!-- usuario y contraseña -->
+            <input type="text" name="Usuario" placeholder="Usuario" required>
+            <input type="text" name="Contraseña" placeholder="Contraseña" required>
+            <input type="submit" value="Ingresar">
+        </form>
+
+    </header>
+    <main>
+        <!-- habitaciones -->
+        <h2>HABITACIONES</h2>
+        <!-- habitacion 1   -->
+        <section id="habitaciones">
+            <section id="habitacion-1">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1.jpg"
+                    width="400" alt="Standard Doble Matrimonial">
+                <h3>Standard Doble Matrimonial</h3>
+
+
+                <a href="#miModal">INFO</a>
+            </section>
+            <!-- modal habitacion 1 -->
+            <section id="miModal" class="modal">
+                <section class="modal-contenido">
+                    <a href="#">X</a>
+                    <section>
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1.jpg"
+                            width="150" alt="">
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1, foto 2.jpg"
+                            width="150" alt="">
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Habitacion 1, foto 3.jpg"
+                            width="150" alt="">
+                        <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Matrimonial/Frigobar habitacion 1.jpg"
+                            width="150" alt="">
+                    </section>
+                    <section>
+                        <h2>Standard Doble Matrimonial</h2>
+                        <p>Confortables habitaciones que pueden acomodar una cama de tamaño Queen permitiendo hospedar a
+                            una o dos personas y un menor hasta dos años compartiendo cama o en cuna.</p>
+                        <h3>Servicios:</h3>
+                        <ul>
+                            <li>Wifi</li>
+                            <li>Minibar</li>
+                            <li>Tv por cable </li>
+                            <li>Telefono</li>
+                            <li>Ropa de cama y toallas</li>
+                            <li>Secador de cabello</li>
+                        </ul>
+                        <input type="submit" value="RESERVAR">
+                    </section>
+                </section>
+            </section>
+
+            <!-- habitacion 2 -->
+            <section id="habitacion-2">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Single Queen/Habitacion 2.jpg" width="400"
+                    alt="">
+                <h3>Standard Simple Queen</h3>
+                <a href="">INFO</a>
+            </section>
+            <section id="habitacion-3">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Standard Doble Twin/Habitacion 3-1.jpg" width="400"
+                    alt="Standard Doble Twin">
+                <h3>Standard Doble Twin</h3>
+                <a href="">Info</a>
+            </section>
+            <section id="habitacion-4">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion Superior Doble Matrimonial/Habitacion 4-1.jpg"
+                    width="400" alt="Superior Doble Matrimonial">
+                <h3>Superior Doble Matrimonial</h3>
+                <a href="">Info</a>
+            </section>
+            <section id="habitacion-5">
+                <img src="images/Hotel/Habitaciones/Slide Habitacion ejecutiva doble/Habitacion 5-1.jpg" width="400"
+                    alt="Ejecutiva Doble ">
+                <h3>Ejecutiva Doble</h3>
+                <a href="">Info</a>
+            </section>
+        </section>
+        <hr>
+        <!-- servicios -->
+        <section id="servicios"></section>
+        <!-- spa -->
+        <section id="spa"></section>
+        <!-- slider con galeria de fotos -->
+        <aside id="galeria"></aside>
+        <!-- contacto y mapa -->
+        <aside id="contacto"></aside>
+    </main>
+
+    </div>
+
+    <footer></footer>
+</body>
+
+</html>

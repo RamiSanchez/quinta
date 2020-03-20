@@ -1,0 +1,10 @@
+--Se abre una ventana modal que contiene esta galeria de imagenes y este texto:--
+Confortables habitaciones que pueden acomodar dos camas individuales, permitiendo hospedar a una o dos personas y una menor hasta dos años compartiendo cama o en cuna. 
+Servicios: 
+Wifi 
+Minibar
+Tv por cable
+Teléfono 
+Ropa de cama y toallas 
+Secador de cabello 
+ --- dentro de la ventana modal un icono de "reservar" 

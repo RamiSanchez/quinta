@@ -1,0 +1,10 @@
+--Se abre una ventana modal que contiene esta galeria de imagenes y este texto:--
+Confortables habitaciones que pueden acomodar una cama de tamaño Queen.
+Servicios: 
+Wifi 
+Minibar
+Tv por cable
+Teléfono 
+Ropa de cama y toallas 
+Secador de cabello 
+ --- dentro de la ventana modal un icono de "reservar" 
